@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.github.weChart.mapper.RetailerMapper">
+  <resultMap id="BaseResultMap" type="com.github.weChart.model.Retailer">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="account" jdbcType="VARCHAR" property="account" />
+    <result column="license" jdbcType="VARCHAR" property="license" />
+    <result column="license_date" jdbcType="VARCHAR" property="licenseDate" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="native_place" jdbcType="VARCHAR" property="nativePlace" />
+    <result column="representative" jdbcType="VARCHAR" property="representative" />
+    <result column="business_type" jdbcType="VARCHAR" property="businessType" />
+    <result column="operation_scale" jdbcType="VARCHAR" property="operationScale" />
+    <result column="formats" jdbcType="VARCHAR" property="formats" />
+    <result column="photo" jdbcType="VARCHAR" property="photo" />
+    <result column="place_x" jdbcType="VARCHAR" property="placeX" />
+    <result column="place_y" jdbcType="VARCHAR" property="placeY" />
+    <result column="manager_id" jdbcType="INTEGER" property="managerId" />
+    <result column="score" jdbcType="VARCHAR" property="score" />
+  </resultMap>
+</mapper>
